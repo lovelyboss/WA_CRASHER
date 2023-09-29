@@ -80,7 +80,7 @@ def main():
 		print(f"{Y}[✓] Sending Now\n")
 		print(f"{G}[{Y}+{G}]{M}Applying 40sec delay...")
 		link1 = os.system(link)
-		time.sleep(40)
+		time.sleep(10)
 		if link1 == 0:
 			print(f"{G} Successful")
 			pass
@@ -95,15 +95,15 @@ def MSG():
 	if YTC == 'Y' or YTC == 'y':
 		print(G)
 		print("Thank You For Joining Us...\n")
-		time.sleep(4)
+		time.sleep(1)
 		print("Initializing tool...")
-		time.sleep(4)		
+		time.sleep(1)		
 		print(W + "\n\n")
 		main()
 	elif YTC == 'N' or YTC == 'n':
 		print("")
 		os.system("xdg-open https://hackerxphantom.blogspot.com/p/join-whatsapp-group.html")
-		time.sleep(8)
+		time.sleep(1)
 		os.system("xdg-open https://hackerxphantom.blogspot.com/p/join-whatsapp-group.html")
 		time.sleep(3)
 		print(W + "\n\n")
